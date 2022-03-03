@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2970eb93-7f6d-4232-a9c9-34c53a81e13b" name="lending" url="http://45.90.34.90">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="45.90.34.90" port="22" sshConfigId="17143707-c454-43d1-8a2e-a2dc206e683b" sshConfig="root@45.90.34.90:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="35eb91f3-2216-485c-96af-b25ec0d4ff60" name="my">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="45.90.34.90" port="22" sshConfigId="17143707-c454-43d1-8a2e-a2dc206e683b" sshConfig="root@45.90.34.90:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

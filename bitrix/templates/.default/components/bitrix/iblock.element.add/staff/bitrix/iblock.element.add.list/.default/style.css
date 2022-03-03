@@ -1,0 +1,38 @@
+
+
+.container_table {
+	overflow: auto;
+}
+
+.btn2 {
+	display: none;
+}
+
+.btn-secondary:before {
+	content: 'Типировать';
+}
+
+
+
+@media screen and (max-width: 767px) {
+	.btn2 {
+		display: block !important;
+	}
+
+	.hide-button {
+		display: none !important;
+	}
+}
+
+/*@media screen and (min-width: 767px) {*/
+/*	.btn, .btn-primary, .btn2 {*/
+/*		display: none;*/
+/*	}*/
+/*	.btn-primary {*/
+/*		display: block;*/
+/*	}*/
+/*	.btn {*/
+/*		display: block;*/
+/*	}*/
+/*}*/
+

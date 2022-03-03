@@ -1,0 +1,21 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
+<?$APPLICATION->IncludeComponent(
+    "bitrix:iblock.element.add",
+    "",
+    Array()
+);?>
+<hr>
+
+<?$APPLICATION->IncludeComponent(
+    "bitrix:iblock.element.add.list",
+    "",
+    Array()
+);?>
+    <hr>
+<?$APPLICATION->IncludeComponent(
+    "bitrix:iblock.element.add.form",
+    "",
+    Array(),
+    false
+);?><br>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

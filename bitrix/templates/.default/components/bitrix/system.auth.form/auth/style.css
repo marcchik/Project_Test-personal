@@ -1,0 +1,57 @@
+div.bx-system-auth-form span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:bottom; margin-top:-1px;}
+div.bx-system-auth-form div.bx-auth-secure-icon {background-image:url(images/sec.png); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-system-auth-form div.bx-auth-secure-unlock {background-image:url(images/sec-unlocked.png);}
+
+.bx-system-auth-form{
+    width: 100vw;
+    height: 100vh;
+}
+.btn{
+    width: 100%;
+    margin-top: 10px;
+}
+.table_border{
+    /*background: #00acee; !* Цвет фона *!*/
+    padding: 20px; /* Поля вокруг текста */
+}
+table {
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+
+/*уменьшение ширины формы регистрации*/
+@media screen and (max-width: 1100px) {
+    table {
+        width: 17% !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    table {
+        width: 20% !important;
+    }
+}
+@media screen and (max-width: 900px) {
+    table {
+        width: 23% !important;
+    }
+}
+@media screen and (max-width: 800px) {
+    table {
+        width: 26% !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    table {
+        width: 29% !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    table {
+        width: 32% !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    table {
+        width: 40% !important;
+    }
+}
+

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Типирование";
+$arDirProperties = Array(
+
+);
+?>
